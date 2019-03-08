@@ -25,3 +25,4 @@ It requires VS Code 1.32.
 
 * Very basic support, barely worth mentioning :)
 
+DISCLAIMER: Logo has been shamelessly stolen from rptool.net...

@@ -6,7 +6,8 @@
     "brackets": [
         ["{", "}"],
         ["[", "]"],
-        ["(", ")"]
+        ["(", ")"],
+        ["<", ">"]
     ],
     // symbols that are auto closed when typing
     "autoClosingPairs": [
@@ -14,13 +15,13 @@
         { "open": "[", "close": "]" },
         { "open": "(", "close": ")" },
         { "open": "'", "close": "'", "notIn": ["string", "comment"] },
-        { "open": "\"", "close": "\"", "notIn": ["string", "comment"] },
+        { "open": "\"", "close": "\"", "notIn": ["string", "comment"] }
     ],
     "autoCloseBefore": ";:.,=}])> \n\t",
     "folding": {
         "markers": {
-            "start": "^\\s*//\\s*#?region\\b",
-			"end": "^\\s*//\\s*#?endregion\\b"
+            "start": "^@@",
+			"end": "^!!"
         }
     },
     // symbols that that can be used to surround a selection
@@ -29,7 +30,8 @@
         ["[", "]"],
         ["(", ")"],
         ["\"", "\""],
-        ["'", "'"]
+        ["'", "'"],
+        ["<", ">" ]
     ],
     "indentationRules": {
         "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$",
