@@ -23,5 +23,5 @@ It requires VS Code 1.32.
 
 ### 0.0.1
 
-* Very basic support, bare worth mentioning :)
+* Very basic support, barely worth mentioning :)
 
