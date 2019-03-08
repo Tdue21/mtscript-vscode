@@ -7,6 +7,12 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include":"#annotation"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
@@ -24,8 +30,24 @@
 				{
 					"name": "constant.character.escape.maptool",
 					"match": "\\\\."
+
 				}
 			]
+		},
+		"annotation":{
+			"patterns": [{
+				"begin": "@\\w+",
+				"end": "\\n",
+				"match": "@\\w+",
+				"name":"entity.name.function"
+			}]
+		},
+		"comments":{
+			"patterns": [{
+				"begin": "<!--",
+				"end": "-->",
+				"name":"comment.block"
+			}]
 		}
 	},
 	"scopeName": "source.maptool"
