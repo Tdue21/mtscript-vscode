@@ -1,0 +1,25 @@
+{
+    "name": "mtsl",
+    "displayName": "MapTool Script",
+    "description": "Support for the MapTool scripting language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "maptool",
+            "aliases": ["MapTool Scripting", "maptool"],
+            "extensions": [".mtsl"],
+            "configuration": "./src/language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "maptool",
+            "scopeName": "source.maptool",
+            "path": "./src/syntaxes/maptool.tmLanguage.json"
+        }]
+    }
+}
