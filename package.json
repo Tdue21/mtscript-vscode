@@ -1,9 +1,9 @@
 {
-    "name": "mtsl",
+    "name": "mts",
     "displayName": "MapTool Scripting",
     "description": "Support for the MapTool scripting language.",
     "version": "0.0.1",
-    "license": "SEE LICENSE IN LICENSE",
+    "license": "MIT",
     "author": {
         "name": "Thomas Due", 
         "email": "tho.due@gmail.com"
@@ -17,7 +17,7 @@
     },
     "icon": "./images/RPTools_Map_Logo_242.png",
     "engines": {
-        "vscode": "^1.32.0"
+        "vscode": "^1.48.0"
     },
     "categories": [
         "Programming Languages"
@@ -31,6 +31,7 @@
                     "maptool"
                 ],
                 "extensions": [
+                    ".mts",
                     ".mtsl"
                 ],
                 "configuration": "./src/language-configuration.json"
