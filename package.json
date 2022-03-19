@@ -31,8 +31,8 @@
                     "maptool"
                 ],
                 "extensions": [
-                    ".mts",
-                    ".mtsl"
+                    ".mtsl",
+                    ".mts"
                 ],
                 "configuration": "./src/language-configuration.json"
             }
@@ -41,7 +41,11 @@
             {
                 "language": "maptool",
                 "scopeName": "text.maptool.basic",
-                "path": "./src/syntaxes/maptool.tmLanguage.json"
+                "path": "./src/syntaxes/maptool.tmLanguage.json",
+                "embeddedLanguages": {
+                    "text.html":"html",
+                    "text.css":"css"
+                }
             }
         ]
     }
