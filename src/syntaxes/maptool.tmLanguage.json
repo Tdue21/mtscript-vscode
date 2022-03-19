@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"scopeName": "source.maptool",
+	"scopeName": "text.maptool.basic",
 	"name": "MapTool Scripting",
 
 	"patterns": [

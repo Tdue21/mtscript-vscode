@@ -2,7 +2,7 @@
     "name": "mts",
     "displayName": "MapTool Scripting",
     "description": "Support for the MapTool scripting language.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "author": {
         "name": "Thomas Due", 
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Tdue21/mtscript-vscode"
+        "url": "https://github.com/Tdue21/mtscript-vscode.git"
     },
     "bugs": {
         "url": "https://github.com/Tdue21/mtscript-vscode/issues"        
@@ -40,7 +40,7 @@
         "grammars": [
             {
                 "language": "maptool",
-                "scopeName": "source.maptool",
+                "scopeName": "text.maptool.basic",
                 "path": "./src/syntaxes/maptool.tmLanguage.json"
             }
         ]
