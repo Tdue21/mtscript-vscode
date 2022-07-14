@@ -4,6 +4,7 @@
     "description": "Support for the MapTool scripting language.",
     "version": "0.3.0",
     "license": "MIT",
+    "publisher": "Thomas Due",
     "author": {
         "name": "Thomas Due", 
         "email": "tho.due@gmail.com"

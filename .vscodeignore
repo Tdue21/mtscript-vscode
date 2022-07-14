@@ -1,0 +1,6 @@
+.stuff/**
+.vscode/**
+.vscode-test/**
+build/**
+.gitignore
+vsc-extension-quickstart.md
