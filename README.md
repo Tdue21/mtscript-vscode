@@ -5,25 +5,35 @@ MapTool is an excellent virtual tabletop for roleplaying games, and amount many 
 
 ## Features
 
-There are not many at the moment, but over time this extension will offer full support for the MapTool scripting language. 
+There are not many at the moment, but over time, the intension is for this extension to offer full support for the MapTool scripting language. 
 
 ## Requirements
 
-This extension will support the scripting language as of MapTool version 1.4 and newer.
-It requires VS Code 1.32.
+This extension will support the scripting language as of MapTool version 1.5 and newer.
+It requires VS Code 1.48.
 
 ## Extension Settings
+
 
 
 ## Known Issues
 
 
+## How to build a new version
+Requires the vsce tool, which can be installed with: 
+```
+npm install -g vsce
+```
+This requires Node.js though, so this must also be installed, if it isn't.
+
+Then just run the build.bat from the root of the project.
 
 ## Release Notes
 
-### 0.0.1
+### 0.3.0
 
-* Very basic support, barely worth mentioning :)
+- Initial release
+- Basic syntax highlighting for all builtin macro functions, special variables, operators etc. as of MapTool 1.12. 
 
 DISCLAIMER: Logo has been shamelessly stolen from rptool.net...
 
@@ -32,7 +42,7 @@ DISCLAIMER: Logo has been shamelessly stolen from rptool.net...
 
 
 
-
+## All keywords, operators, special variables etc. from MapTool as of version 1.12. 
 
 **Operators:**
 +   &&  =   /   ==  >   >=  <   <=  *   !   !=  ||  ^   -
