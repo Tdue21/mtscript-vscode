@@ -1,0 +1,13 @@
+{
+    "name": "MapTool custom Colors",
+	"tokenColors": [
+        {
+            "scope":"keyword.control.variables.maptool",
+            "settings": {
+                "foreground":"#268BD2",
+                "fontStyle":"italic"
+            }
+		
+        }
+    ]
+}

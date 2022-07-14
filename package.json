@@ -2,7 +2,7 @@
     "name": "mts",
     "displayName": "MapTool Scripting",
     "description": "Support for the MapTool scripting language.",
-    "version": "0.0.2",
+    "version": "0.3.0",
     "license": "MIT",
     "author": {
         "name": "Thomas Due", 
@@ -15,7 +15,7 @@
     "bugs": {
         "url": "https://github.com/Tdue21/mtscript-vscode/issues"        
     },
-    "icon": "./images/RPTools_Map_Logo_242.png",
+    "icon": "images/RPTools_Map_Logo_242.png",
     "engines": {
         "vscode": "^1.48.0"
     },
@@ -46,6 +46,13 @@
                     "text.html":"html",
                     "text.css":"css"
                 }
+            }
+        ],
+        "themes": [
+            {
+                "label": "MapTool",
+                "uiTheme": "vs-dark",
+                "path": "./src/themes/maptool.dark.mtTheme.json"
             }
         ]
     }
